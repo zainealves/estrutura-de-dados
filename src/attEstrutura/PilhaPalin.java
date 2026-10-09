@@ -16,7 +16,7 @@ public class PilhaPalin {
         String limpo = normalizar(texto);
         Deque<Character> pilha = new ArrayDeque<>();
 
-        // Empilha todos os caracteres
+    
         for (char c : limpo.toCharArray()) {
             pilha.push(c);
         }
