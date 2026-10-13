@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "agendaTelefonica.Main",
+            "projectName": "estruturadeDados_ae07c863"
+        },
+        {
+            "type": "java",
             "name": "Recursao",
             "request": "launch",
             "mainClass": "attRecursao.Recursao",
